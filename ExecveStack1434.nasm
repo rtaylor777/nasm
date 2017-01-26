@@ -19,7 +19,9 @@
 ;liability, whether in an action of contract, tort or otherwise, arising 
 ;from, out of or in connection with the software or the use or other 
 ;dealings in the Software.
-
+;
+; For a detailed explanation of this shellcode see my blog post:
+; http://a41l4.blogspot.ca/2017/01/execvestack1434.html
 global _start 
 
 section .text
