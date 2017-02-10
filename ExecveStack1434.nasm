@@ -22,6 +22,7 @@
 ;
 ; For a detailed explanation of this shellcode see my blog post:
 ; http://a41l4.blogspot.ca/2017/01/execvestack1434.html
+; 22 bytes, zero nulls
 global _start 
 
 section .text
