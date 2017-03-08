@@ -63,7 +63,7 @@ _start:
 	mov al,42
 	syscall 
 ; Read
-	pop rcx
+	pop rbx
 	pop rsi
 	pop rdx
 	syscall 
