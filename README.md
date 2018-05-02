@@ -9,7 +9,7 @@ Despite being instructed to use the above link on my blog for the exam purposes,
 You can find more detailed explanation for the assembly language source code that I have posted here on my blog.
 http://a41L4.blogspot.ca
 
-###Suggested Prerequisites
+### Suggested Prerequisites
 
 Now that I am finished the training, I can recommend some prerequisites.
 
