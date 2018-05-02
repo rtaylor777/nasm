@@ -1,5 +1,5 @@
 ### Hello
-The purpose of this 'nasm' github is to fulfill the requirements for the "SecurityTube Linux Assembly Expert" certification: http://www.securitytube-training.com/online-courses/securitytube-linux-assembly-expert/
+The purpose of this 'nasm' github repository is to fulfill the requirements for the "SecurityTube Linux Assembly Expert" certification: http://www.securitytube-training.com/online-courses/securitytube-linux-assembly-expert/
 
 Student ID: SLAE64-1434
 
