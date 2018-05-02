@@ -1,11 +1,11 @@
-###Hello
-For the moment, the purpose of my GitHub account is to fulfill the requirements for the "SecurityTube Linux Assembly Expert" certification: http://www.securitytube-training.com/online-courses/securitytube-linux-assembly-expert/
+### Hello
+The purpose of this 'nasm' github is to fulfill the requirements for the "SecurityTube Linux Assembly Expert" certification: http://www.securitytube-training.com/online-courses/securitytube-linux-assembly-expert/
 
 Student ID: SLAE64-1434
 
 Despite being instructed to use the above link on my blog for the exam purposes, the course I am actually taking is the SLAE64, the 64 bit version of the course in other words. SLAE64 Url: http://www.securitytube-training.com/online-courses/x8664-assembly-and-shellcoding-on-linux/index.html
 
-###Blog
+### Blog
 You can find more detailed explanation for the assembly language source code that I have posted here on my blog.
 http://a41L4.blogspot.ca
 
@@ -37,7 +37,7 @@ You should be comfortable working within Linux and especially on a terminal comm
 
 If you are not familiar with virtualization, virtual host, virtual guest etc. now is a good time to get some experience.
 
-###Resources
+### Resources
 
 - https://software.intel.com/en-us/articles/introduction-to-x64-assembly/
 - http://www.nasm.us/doc/
